@@ -200,6 +200,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Christopher Zumberge";
 				TargetAttributes = {
+					831502B418A6F98B00CC64F6 = {
+						DevelopmentTeam = HF68LW36C5;
+					};
 					831502D518A6F98B00CC64F6 = {
 						TestTargetID = 831502B418A6F98B00CC64F6;
 					};
@@ -379,10 +382,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeavyRotation/HeavyRotation-Prefix.pch";
 				INFOPLIST_FILE = "HeavyRotation/HeavyRotation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +398,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HeavyRotation/HeavyRotation-Prefix.pch";
 				INFOPLIST_FILE = "HeavyRotation/HeavyRotation-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +470,7 @@
 				831502E918A6F98B00CC64F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		831502EA18A6F98B00CC64F6 /* Build configuration list for PBXNativeTarget "HeavyRotationTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +479,7 @@
 				831502EC18A6F98B00CC64F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

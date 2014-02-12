@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "HeavyRotationAppDelegate.h"
 
 @interface HeavyRotationAppDelegate : UIResponder <UIApplicationDelegate>
 
